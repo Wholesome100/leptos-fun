@@ -1,0 +1,12 @@
+[package]
+name = "leptos-fun"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+console_log = "1.0.0"
+leptos = { version = "0.8.6", features = ["csr"] }
+leptos_meta = "0.8.5"
+leptos_router = "0.8.5"
+log = "0.4.27"

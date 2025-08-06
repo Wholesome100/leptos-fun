@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <base href="/leptos-fun/">
+        <!-- Compiled Tailwind ends up in output.css, which we link into the HTML -->
+        <link data-trunk rel="css" href="output.css" />
+
+        <!--Include favicon in dist output-->
+        <link data-trunk rel="icon" href="favicon.png" />
+
+        <!--Include support for `wasm-bindgen --weak-refs`-->
+        <link data-trunk rel="rust" data-wasm-opt="z" data-weak-refs />
+  </head>
+  <body></body>
+</html>
