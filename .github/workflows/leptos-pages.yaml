@@ -43,7 +43,7 @@ jobs:
 
       # If using tailwind...
       - name: Download and install tailwindcss binary
-        run: npm install -D tailwindcss && npx tailwindcss -i input.css -o output.css  # run tailwind
+        run: npm install tailwindcss @tailwindcss/cli && npx @tailwindcss/cli -i input.css -o output.css # run tailwind (not in watch mode)
 
       - name: Download and install Trunk binary
         run: wget -qO- https://github.com/trunk-rs/trunk/releases/download/v0.21.12/trunk-x86_64-unknown-linux-gnu.tar.gz | tar -xzf-
