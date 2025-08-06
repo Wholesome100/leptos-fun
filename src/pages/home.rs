@@ -25,7 +25,7 @@ pub fn Home() -> impl IntoView {
 
             <div class="flex items-center justify-center h-screen bg-gradient-to-b from-gray-700 to-gray-900 text-white">
                 <h1 class="text-3xl font-bold
-                animate-bounce">
+                animate-[wiggle_1s_ease-in-out_infinite]">
                 "Welcome to Leptos"</h1>
             </div>
         </ErrorBoundary>
