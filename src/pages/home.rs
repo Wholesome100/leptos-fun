@@ -23,11 +23,14 @@ pub fn Home() -> impl IntoView {
             }
         }>
 
-            <div class="flex items-center justify-center h-screen bg-gradient-to-b from-gray-700 to-gray-900 text-white">
-                <h1 class="text-3xl font-bold
-                animate-[wiggle_1s_ease-in-out_infinite]">
-                "Welcome to Leptos"</h1>
-            </div>
+            <main class="flex h-screen bg-gradient-to-b from-gray-700 to-gray-900 text-white">
+                <section class="mt-4 ml-6 animate-[fadeSlideLeft_0.8s_ease-out_forwards]">
+                //animate-[wiggle_1s_ease-in-out_infinite]
+                    <h1 class="text-3xl font-bold">"Welcome to Leptos"</h1>
+                    <p class="text-2xl">"Click around and glimpse a future with WASM!"</p>
+                </section>
+            </main>
+
         </ErrorBoundary>
     }
 }
